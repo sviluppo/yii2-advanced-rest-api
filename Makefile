@@ -5,4 +5,4 @@ start:
 	docker-compose run --rm backend php /app/init --env=Development
 	docker-compose up -d
 	sleep 3
-	docker-compose run --rm backend yii migrate -y
+	docker-compose run --rm backend yii migrate --interactive=0
