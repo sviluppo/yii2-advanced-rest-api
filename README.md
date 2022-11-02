@@ -1,3 +1,17 @@
+### Installing using Docker
+
+Install [Docker](https://docs.docker.com/get-docker/)
+
+Run command
+
+    make start         
+
+Access in your browser by opening
+
+- frontend: http://127.0.0.1:20080
+
+------------------------------------------------------------
+
 <p align="center">
     <a href="https://github.com/yiisoft" target="_blank">
         <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
